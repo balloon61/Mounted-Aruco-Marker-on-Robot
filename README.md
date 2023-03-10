@@ -6,7 +6,7 @@ This repository show how to mounted a aruco marker on a robot.
 ## Package.xml
 you need to make the media file visable by gazebo_media, so put the following line in your package.xml
 ```
-< depend>gazebo_ros</depend>
+<depend>gazebo_ros</depend>
   <export>
     <gazebo_ros gazebo_media_path="${prefix}/media"/>
   </export >
