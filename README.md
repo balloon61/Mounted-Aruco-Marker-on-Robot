@@ -4,7 +4,7 @@ This repository show how to mounted a aruco marker on a robot.
 
 
 ## Package.xml
-you need to make the media file visable by gazebo_media, so put the following line in your package.xml
+you need to make the media file visable by gazebo_media, so put the following line in your package.xml (turtlebot3_descriptions/package.xml)
 ```
 <depend>gazebo_ros</depend>
   <export>
